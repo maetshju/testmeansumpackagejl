@@ -26,4 +26,6 @@ which gives the results
 **array 1** | 249.88746883431705 | 249.88746883431705
 **array 2** | 79.97860557454476  | 79.97860557454476
 
+Notice that the results of calling the `mean` function from the `Statistics` package are now the same as the results from calculating the mean using a left-to-right sum with `foldl` and then dividing by the length of the array.
+
 The build results can be seen in the Travis CI results, which are accessible with the badge at the top of the README.
