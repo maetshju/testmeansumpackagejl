@@ -1,0 +1,14 @@
+language: julia
+julia:
+    - 1.5
+os:
+    - linux
+    - windows
+    - osx
+    
+script:
+
+    - echo "RUNNING TEST AS SCRIPT"
+    - julia test/runtests.jl
+    - echo "RUNNING TEST WITH PKG"
+    - julia -e "using Pkg; Pkg.activate(); Pkg.test"
