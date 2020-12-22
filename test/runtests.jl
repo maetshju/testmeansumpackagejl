@@ -1,5 +1,4 @@
 using Test
-using Statistics
 using Random
 
 Random.seed!(0)
