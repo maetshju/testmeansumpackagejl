@@ -1,6 +1,12 @@
 [![Build Status](https://travis-ci.com/maetshju/testmeansumpackagejl.svg?branch=main)](https://travis-ci.com/maetshju/testmeansumpackagejl)
 
-To run the tests as a script, run the command
+Clone this repo with
+
+```bash
+git clone https://github.com/maetshju/testmeansumpackagejl.git
+```
+
+and then navigate to the new directory. To run the tests as a script, run the command
 
 ```bash
 julia test/runtests.jl
