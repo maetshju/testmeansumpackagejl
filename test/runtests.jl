@@ -13,5 +13,5 @@ a = [79.97860557454469, 79.97860557454469, 79.97860557454469, 79.97860557454469,
 s1 = sum(a); println("statistics sum:\t$s1")
 s2 = foldl(+, a); println("foldl sum:\t$s2")
 
-@test m != f
-@test m1 != m2
+@test s != f
+@test s1 != s2
