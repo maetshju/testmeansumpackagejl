@@ -10,8 +10,8 @@ which returns the results
    
 —           | mean method        | foldl method      
 ------------|--------------------|-------------------
-**array 1** | 249.88746883431702 | 249.88746883431705
-**array 2** | 79.97860557454474  | 79.97860557454476
+**array 1** | 24988.7468834317   | 24988.746883431704
+**array 2** | 3998.9302787272372 | 3998.930278727238
 
 To run the tests using the `Pkg` testing functionality, run the command
 
@@ -23,8 +23,8 @@ which gives the results
 
 —           | mean method        | foldl method      
 ------------|--------------------|-------------------
-**array 1** | 249.88746883431705 | 249.88746883431705
-**array 2** | 79.97860557454476  | 79.97860557454476
+**array 1** | 24988.746883431704 | 24988.746883431704
+**array 2** | 3998.930278727238  | 3998.930278727238
 
 Notice that the results of calling the `mean` function from the `Statistics` package are now the same as the results from calculating the mean using a left-to-right sum with `foldl` and then dividing by the length of the array.
 
