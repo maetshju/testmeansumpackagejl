@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/maetshju/testmeansumpackagejl.svg?branch=main)](https://travis-ci.com/maetshju/testmeansumpackagejl)
 
+This concern was resolved in [this Issue](https://github.com/JuliaLang/Pkg.jl/issues/2298) for Pkg. It has to do with the default value for the `check-bounds` argument.
+
 Clone this repo with
 
 ```bash
